@@ -1,0 +1,23 @@
+{
+  "name": "indieflow-webhook-example",
+  "version": "1.0.0",
+  "description": "Indieflow Webhook Implementation Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indiemob/indieflow-webhook-example.git"
+  },
+  "author": "Humberto Guerrero",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/indiemob/indieflow-webhook-example/issues"
+  },
+  "homepage": "https://github.com/indiemob/indieflow-webhook-example#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
