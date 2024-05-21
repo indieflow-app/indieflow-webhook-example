@@ -5,7 +5,7 @@ const SIGNATURE_KEY = 'wsk_upsjOIYYLME2zLPaiDDe9BpXP2ZS8xnw' // Load this from y
 const STEPS = {
   step_a: (payload) => ({ exit_code: 'success' }),
   step_a: (payload) => ({ exit_code: 'success' }),
-  step_c: (payload) => ({ exit_code: 'success', data: { myOutput: 'myValue' }})
+  step_c: (payload) => ({ exit_code: 'success', data: { myOutput: 'myValue' }}) // Return additional data optionally
 }
 
 function stepFactory (stepName) {
